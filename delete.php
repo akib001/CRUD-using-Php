@@ -1,5 +1,5 @@
 <?php 
-
+// Stublish connection to the server
 $conn = mysqli_connect("localhost","root","");
 if(!$conn){
     echo 'Server is not cennected';
