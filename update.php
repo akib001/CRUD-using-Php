@@ -2,6 +2,7 @@
 
 $conn = mysqli_connect("localhost", "root", "");
 
+
 if (!$conn) {
     echo "Not connected to the server";
 }
